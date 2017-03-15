@@ -1,0 +1,143 @@
+@import "bourbon"
+@import "vars.sass"
+@import "app/libs/font-awesome/css/font-awesome.min"
+
+body
+	font-size: 14px
+	min-width: 320px
+	position: relative
+	line-height: 1.6
+	font-family: "GothamProRegular", sans-serif
+	overflow-x: hidden
+	background-image: url('../img/page_bg.jpg')
+	background-repeat: no-repeat
+	background-size: cover
+	background-attachment: fixed
+	color: #fff
+
+
+.hidden
+	display: none
+h1
+	font-size: 28px
+
+h2
+	font-size: 24px
+h3
+	font-size: 18px
+h4
+	font-size: 16px
+
+a
+	color: inherit
+a:hover
+	text-decoration: none
+	color: $yellou
+a:focus
+	color: inherit
+	text-decoration: none
+a:active
+	text-decoration: none
+	color: $yellou
+	
+.main_head
+	width: 100%
+	height: 175px
+	overflow: hidden
+	.logo_linck:hover
+		color: inherit
+	.logo_linck:focus
+		color: inherit
+		text-decoration: none
+.head_logo_block
+	margin-top: 18px
+	img
+		width: 73px 
+		height: 73px
+		display: inline-block
+		vertical-align: top	
+		margin-right: 17px
+	.head_titel
+		width: 307px
+		height: 73px
+		padding-left: 20px
+		display: inline-block
+		border-left: 2px $yellou solid
+		h1
+			margin: 0
+			line-height: 1
+		p
+			margin: 0
+.head_contacts
+	text-align: right
+	font-size: 18px
+	p
+		display: inline-block
+		margin-left: 50px
+		i
+			color: $yellou
+			margin-right: 6px
+.main_head_menu
+	text-align: right
+	height: 19px
+	font-size: 16px
+	margin: 0
+	padding: 0
+	li
+		height: 19px
+		list-style-type: none
+		display: inline-block
+		padding: 0 20px
+		border-right: 2px $yellou solid
+		vertical-align: middle
+		line-height: 1
+		margin-left: -3px
+	:last-child
+		border: none
+		padding-right: 0
+
+.header_bottom_info
+	text-align: right
+.breadcrumps
+	margin-top: 36px
+	ul
+		padding: 0
+		font-size: 16px
+		line-height: 1
+		li
+			list-style-type: none
+			display: inline-block
+
+.main_head_search
+	width: 196px
+	display: inline-block
+	input
+		width: 170px
+		height: 23px
+		margin: 21px 0
+		border: 2px $yellou solid
+		vertical-align: top
+		background: inherit
+	.search_ico
+		width: 26px
+		height: 23px
+		background-color: $yellou
+		display: inline-block
+		margin: 21px 0
+		margin-left: -5px
+		text-align: center
+		color: #000
+		border: none
+.main_head_chip_basket
+	display: inline-block
+	vertical-align: top
+	margin: 21px 0
+	margin-left: 35px
+	font-size: 16px
+	i
+		color: $yellou
+.main_head_chip_basket:hover
+	i
+		color: #fff
+
+
